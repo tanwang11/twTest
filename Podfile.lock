@@ -1,0 +1,28 @@
+PODS:
+  - Masonry (1.1.0)
+  - PEPhotoCropEditor (1.3.1)
+  - twTool (0.0.4):
+    - twTool/testEntity2 (= 0.0.4)
+    - twTool/testUI (= 0.0.4)
+  - twTool/testEntity2 (0.0.4)
+  - twTool/testUI (0.0.4)
+
+DEPENDENCIES:
+  - Masonry
+  - PEPhotoCropEditor
+  - twTool
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - PEPhotoCropEditor
+    - twTool
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PEPhotoCropEditor: 613292fce009efd085e7aed975f1ebb3fec8bb7b
+  twTool: b20d4cd9a860342f86e4039669efde129838edca
+
+PODFILE CHECKSUM: bb34f48a8675fd19a02c5c8d30e893379583bd11
+
+COCOAPODS: 1.5.3

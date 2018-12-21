@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0726AD54EB4797966215D11A /* libPods-twTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2A4C7236C0291674F362B2 /* libPods-twTest.a */; };
+		670F0D4421797A9D00951126 /* PhotoCropEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 670F0D4321797A9D00951126 /* PhotoCropEditorViewController.m */; };
+		670F0D4721798AE000951126 /* testImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 670F0D4621798ADF00951126 /* testImage.jpeg */; };
+		6711BA7D2181AAF0009CEAE7 /* GCDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6711BA7C2181AAF0009CEAE7 /* GCDTestViewController.m */; };
+		6713D7F321894B70002FEBD0 /* TransFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6713D7F221894B70002FEBD0 /* TransFormViewController.m */; };
+		6713D7F521894C9F002FEBD0 /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6713D7F421894C9F002FEBD0 /* timg.jpeg */; };
 		67273CAA217042D600362747 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67273CA9217042D600362747 /* AppDelegate.m */; };
 		67273CAD217042D600362747 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67273CAC217042D600362747 /* ViewController.m */; };
 		67273CB0217042D600362747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67273CAE217042D600362747 /* Main.storyboard */; };
@@ -16,6 +22,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A2A4C7236C0291674F362B2 /* libPods-twTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-twTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52248119DF873D07EFCEF2ED /* Pods-twTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-twTest/Pods-twTest.release.xcconfig"; sourceTree = "<group>"; };
+		670F0D4221797A9D00951126 /* PhotoCropEditorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCropEditorViewController.h; sourceTree = "<group>"; };
+		670F0D4321797A9D00951126 /* PhotoCropEditorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCropEditorViewController.m; sourceTree = "<group>"; };
+		670F0D4621798ADF00951126 /* testImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testImage.jpeg; sourceTree = "<group>"; };
+		6711BA7B2181AAF0009CEAE7 /* GCDTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDTestViewController.h; sourceTree = "<group>"; };
+		6711BA7C2181AAF0009CEAE7 /* GCDTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTestViewController.m; sourceTree = "<group>"; };
+		6713D7F121894B70002FEBD0 /* TransFormViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransFormViewController.h; sourceTree = "<group>"; };
+		6713D7F221894B70002FEBD0 /* TransFormViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransFormViewController.m; sourceTree = "<group>"; };
+		6713D7F421894C9F002FEBD0 /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
 		67273CA5217042D600362747 /* twTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67273CA8217042D600362747 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		67273CA9217042D600362747 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +42,7 @@
 		67273CB4217042D700362747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67273CB6217042D700362747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67273CB7217042D700362747 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD5754C7698F85526E11460 /* Pods-twTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-twTest/Pods-twTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +50,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0726AD54EB4797966215D11A /* libPods-twTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BBB54B9F41D56527DC10D5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A2A4C7236C0291674F362B2 /* libPods-twTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		670F0D402179793800951126 /* clase */ = {
+			isa = PBXGroup;
+			children = (
+				6713D7F021894B3D002FEBD0 /* transform测试 */,
+				6711BA7A2181AADC009CEAE7 /* GCD */,
+				670F0D412179794100951126 /* 图片裁剪 */,
+			);
+			path = clase;
+			sourceTree = "<group>";
+		};
+		670F0D412179794100951126 /* 图片裁剪 */ = {
+			isa = PBXGroup;
+			children = (
+				670F0D4221797A9D00951126 /* PhotoCropEditorViewController.h */,
+				670F0D4321797A9D00951126 /* PhotoCropEditorViewController.m */,
+			);
+			path = "图片裁剪";
+			sourceTree = "<group>";
+		};
+		670F0D4521798ADF00951126 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				6713D7F421894C9F002FEBD0 /* timg.jpeg */,
+				670F0D4621798ADF00951126 /* testImage.jpeg */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		6711BA7A2181AADC009CEAE7 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				6711BA7B2181AAF0009CEAE7 /* GCDTestViewController.h */,
+				6711BA7C2181AAF0009CEAE7 /* GCDTestViewController.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		6713D7F021894B3D002FEBD0 /* transform测试 */ = {
+			isa = PBXGroup;
+			children = (
+				6713D7F121894B70002FEBD0 /* TransFormViewController.h */,
+				6713D7F221894B70002FEBD0 /* TransFormViewController.m */,
+			);
+			path = "transform测试";
+			sourceTree = "<group>";
+		};
 		67273C9C217042D600362747 = {
 			isa = PBXGroup;
 			children = (
+				670F0D4521798ADF00951126 /* res */,
+				670F0D402179793800951126 /* clase */,
 				67273CA7217042D600362747 /* twTest */,
 				67273CA6217042D600362747 /* Products */,
+				F5861C6E189F0BBD39101AD0 /* Pods */,
+				4BBB54B9F41D56527DC10D5F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +147,15 @@
 			path = twTest;
 			sourceTree = "<group>";
 		};
+		F5861C6E189F0BBD39101AD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCD5754C7698F85526E11460 /* Pods-twTest.debug.xcconfig */,
+				52248119DF873D07EFCEF2ED /* Pods-twTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67273CBB217042D700362747 /* Build configuration list for PBXNativeTarget "twTest" */;
 			buildPhases = (
+				93FE612582914E1C14FA6272 /* [CP] Check Pods Manifest.lock */,
 				67273CA1217042D600362747 /* Sources */,
 				67273CA2217042D600362747 /* Frameworks */,
 				67273CA3217042D600362747 /* Resources */,
+				366A0D39A8C70BEAE1F6B4DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,7 +215,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6713D7F521894C9F002FEBD0 /* timg.jpeg in Resources */,
 				67273CB5217042D700362747 /* LaunchScreen.storyboard in Resources */,
+				670F0D4721798AE000951126 /* testImage.jpeg in Resources */,
 				67273CB2217042D700362747 /* Assets.xcassets in Resources */,
 				67273CB0217042D600362747 /* Main.storyboard in Resources */,
 			);
@@ -136,13 +225,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		366A0D39A8C70BEAE1F6B4DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-twTest/Pods-twTest-resources.sh",
+				"${PODS_ROOT}/PEPhotoCropEditor/Resources/PEPhotoCropEditor.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PEPhotoCropEditor.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-twTest/Pods-twTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93FE612582914E1C14FA6272 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-twTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		67273CA1217042D600362747 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				67273CAD217042D600362747 /* ViewController.m in Sources */,
+				6713D7F321894B70002FEBD0 /* TransFormViewController.m in Sources */,
+				6711BA7D2181AAF0009CEAE7 /* GCDTestViewController.m in Sources */,
 				67273CB8217042D700362747 /* main.m in Sources */,
+				670F0D4421797A9D00951126 /* PhotoCropEditorViewController.m in Sources */,
 				67273CAA217042D600362747 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +414,7 @@
 		};
 		67273CBC217042D700362747 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD5754C7698F85526E11460 /* Pods-twTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +433,7 @@
 		};
 		67273CBD217042D700362747 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52248119DF873D07EFCEF2ED /* Pods-twTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
