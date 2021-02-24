@@ -1,4 +1,4 @@
-platform :ios, '8.0'
+platform :ios, '10.0'
 
 
 target 'twTest' do
@@ -13,6 +13,9 @@ target 'twTest' do
 
 #   图片裁剪
     pod 'PEPhotoCropEditor'
+    
+#    pod 'mobile-ffmpeg-full', '4.3.2'
+    pod 'mobile-ffmpeg-full'
 
 
 end
