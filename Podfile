@@ -7,7 +7,7 @@ target 'twTest' do
     inhibit_all_warnings!
     
     
-	pod 'twTool'
+    pod 'twTool'
     
     pod 'Masonry'
 
@@ -15,7 +15,7 @@ target 'twTest' do
     pod 'PEPhotoCropEditor'
     
 #    pod 'mobile-ffmpeg-full', '4.3.2'
-    pod 'mobile-ffmpeg-full'
+#    pod 'mobile-ffmpeg-full'
 
 
 end
